@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil_Kavin </title>
+</head>
+<title>Profile-card</title>
+<link rel="stylesheet" href="style.css">
+<body>
+    <audio id="musik" src="lagu.mp3" autoplay loop></audio>
+    <button id="tombolmusik">🎵</button>
+    <div class="profile-card">
+       <img id="profileImage" src="foto1.jpg" alt="profile" width="200" height="200">
+        <input type="file" id="inputFoto" accept="image/*">
+        <button id="editfoto" onclick="document.getElementById('inputFoto').click()">Edit foto</button>
+        <h1>Ach Kavin Rabbani</h1>
+        <p>252410103029</p>
+        <p>kavin Mahasiswa yang tertarik tentang desain</p>
+        <p>ga tahu isi apa</p>
+       <button id="likeButton" onclick="like()">❤️ Like</button>
+
+<p>Jumlah Like: <span id="likeCount">0</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

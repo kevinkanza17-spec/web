@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(130deg, #97dde7, #134d80, #082026);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+
+}
+
+.profile-card {
+    background:linear-gradient(190deg, #97dce777, #134d8075);
+    border-radius: 15px;
+    border:#fff solid 1px;
+    color: #fff;
+    box-shadow: 0 5px 15px #89f7fe;
+    padding: 25px;
+    text-align: center;
+    width: 300px;
+}
+.profile-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px #89f7fe, 0 0 20px #89f7fe;
+    
+}
+
+#likeButton{
+    border-radius: 10px;
+    padding-right: 11px;
+    background-color: #fff;
+    border: 2px solid #ffffff;
+    color: #000;
+    transition: 0.3s;
+}
+@media (hover: hover) {
+#likeButton:hover{
+    transform: scale(1.2);
+    background-color: #97dde7;
+    box-shadow: 0 0 10px #89f7fe, 0 0 20px #89f7fe;
+}
+}
+
+#inputFoto{
+    display: none;
+
+}
+
+#editfoto{
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #000;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+
+
+}
+@media (hover: hover) {
+#editfoto:hover{
+    transform: scale(1.2);
+    background-color: #97dde7;
+    box-shadow: 0 0 10px #89f7fe, 0 0 20px #89f7fe;
+}
+}
+
+#tombolmusik{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+
+    width: 50px;
+    height: 50px;
+
+    background-color:#c1e7ed;
+    box-shadow: 0 0 10px #89f7fe, 0 0 20px #89f7fe;
+    color: #fff;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    
+
+}
+@media (hover: hover) {
+#tombolmusik:hover{
+    transform: scale(1.2);
+    background-color: #97dde7;
+    box-shadow: 0 0 10px #89f7fe, 0 0 20px #89f7fe;
+}}
+/* tugas baru
+-tambahain animasi di tombol like : pake glass effect
+-tambahin fitur ganti profil : ambil foto lewat galeri */
