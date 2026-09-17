@@ -91,12 +91,17 @@ body {
     
 
 }
-@media (hover: hover) {
+/* @media (hover: hover) {
 #tombolmusik:hover{
     transform: scale(1.2);
     background-color: #97dde7;
     box-shadow: 0 0 10px #89f7fe, 0 0 20px #89f7fe;
-}}
+}} */
+#tombolmusik:active{
+    transform: scale(0.9);
+    background-color: #97dde7;
+    box-shadow: 0 0 10px #89f7fe, 0 0 20px #89f7fe;
+}
 /* tugas baru
 -tambahain animasi di tombol like : pake glass effect
 -tambahin fitur ganti profil : ambil foto lewat galeri */
