@@ -73,7 +73,7 @@ body {
 }
 }
 
-#tombolmusik{
+#musicButton{
     position: fixed;
     top: 20px;
     right: 20px;
@@ -91,17 +91,39 @@ body {
     
 
 }
-/* @media (hover: hover) {
-#tombolmusik:hover{
+
+ #musicButton:hover{
     transform: scale(1.2);
     background-color: #97dde7;
     box-shadow: 0 0 10px #89f7fe, 0 0 20px #89f7fe;
-}} */
-#tombolmusik:active{
-    transform: scale(0.9);
+}
+
+
+#editButton{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+
+    width: 100px;
+    height: 50px;
+
+    background-color:#c1e7ed;
+    box-shadow: 0 0 10px #89f7fe, 0 0 20px #89f7fe;
+    color: #fff;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    
+
+}
+
+ #editButton:hover{
+    transform: scale(1.2);
     background-color: #97dde7;
     box-shadow: 0 0 10px #89f7fe, 0 0 20px #89f7fe;
 }
+
 /* tugas baru
 -tambahain animasi di tombol like : pake glass effect
 -tambahin fitur ganti profil : ambil foto lewat galeri */
